@@ -1,0 +1,46 @@
+  <!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--app-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="MobileOptimized" content="width">
+    <meta name="theme-color" content="#09203f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+    <link rel="apple-touch-startup-image" href="logO2.png">
+    <link rel="apple-touch-icon" href="LogO2.png">
+    <meta name="Handheldfriendly" content="true">
+    <link rel="shortcut icon" href="logO.png" type="image/x-icon">
+    <!--end app-->
+    <title>App Notas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>App Notas
+      <div id="toggleIcon" onclick="menuToggle()"></div>
+    <div id="manu-overlay">
+    </div>
+    </header>
+    <div class="inputField">
+      <input type="text" placeholder="Agrega una nueva nota!">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+      <!-- data are comes from local storage -->
+    </ul>
+    <div class="footer">
+      <span>Tienes <span class="pendingTasks"></span> notas pendientes.</span>
+      <button>Vaciar Notas</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</script>
+
+</body>
+</html>
